@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
 
 :root {
-  --overlay-color: #03a9f4;
+  --overlay-color: #9e7a4d;
 }
 
 * {
@@ -71,7 +71,7 @@
     z-index: 10;
 
     h2 {
-      font-size: 5em;
+      font-size: 4em;
       font-weight: 800;
       color: #fff;
       line-height: 1em;
@@ -79,7 +79,7 @@
     }
 
     h3 {
-      font-size: 4em;
+      font-size: 3em;
       font-weight: 700;
       color: #fff;
       line-height: 1em;
@@ -110,6 +110,10 @@
 
     a:hover {
       letter-spacing: 6px;
+    }
+
+    .text-button {
+      border-radius: 8px;
     }
   }
 
@@ -155,7 +159,7 @@
     height: 3px;
     background-color: #fff;
     transition: all 0.3s ease;
-    border-radius: 10%;
+    border-radius: 8px;
   }
 
   .bar1 {
