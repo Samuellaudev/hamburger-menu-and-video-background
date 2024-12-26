@@ -10,10 +10,10 @@
     <section class="showcase">
       <header>
         <h2 class="logo">Travel</h2>
-        <div class="toggle">
-          <div class="toggle-background"></div>
-          <img class="toggle-menu" src="/menu.svg" alt="" />
-          <!-- <img class="active" src="/close.png" alt="" /> -->
+        <div class="hamburger-menu" id="hamburgerMenu">
+          <div class="bar bar1"></div>
+          <div class="bar bar2"></div>
+          <div class="bar bar3"></div>
         </div>
       </header>
 
@@ -56,14 +56,6 @@
       </ul>
     </div>
 
-    <script>
-      const menuToggle = document.querySelector('.toggle');
-      const showcase = document.querySelector('.showcase');
-
-      menuToggle.addEventListener('click', () => {
-        menuToggle.classList.toggle('active');
-        showcase.classList.toggle('active');
-      });
-    </script>
+    <script src="/script.js"></script>
   </body>
 </html>
