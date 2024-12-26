@@ -9,44 +9,55 @@
   <body>
     <section class="showcase">
       <header>
-        <h2 class="logo">Coffee</h2>
-        <div class="hamburger-menu" id="hamburgerMenu">
+        <h1 class="logo">Coffee</h1>
+        <div
+          class="hamburger-menu"
+          id="hamburgerMenu"
+          aria-label="Toggle navigation"
+        >
           <div class="bar bar1"></div>
           <div class="bar bar2"></div>
           <div class="bar bar3"></div>
         </div>
       </header>
 
-      <video src="coffee.mp4" muted loop autoplay></video>
+      <div class="content-wrapper">
+        <video src="coffee.mp4" muted loop autoplay></video>
+        <div class="overlay"></div>
 
-      <div class="overlay"></div>
-
-      <div class="text">
-        <h2>Experience the Perfect Brew</h2>
-        <h3>Your Daily Coffee Fix</h3>
-        <p>
-          Savor the rich aroma of freshly brewed coffee, whether it's a strong
-          espresso or a smooth cappuccino. Every cup tells a story of passion,
-          craftsmanship, and tradition. Join us in discovering the world's best
-          coffee beans, handpicked for perfection.
-        </p>
-        <a href="#" class="text-button">Menu</a>
+        <div class="text">
+          <h2>Experience the Perfect Brew</h2>
+          <h3>Your Daily Coffee Fix</h3>
+          <p>
+            Savor the rich aroma of freshly brewed coffee, whether it's a strong
+            espresso or a smooth cappuccino. Every cup tells a story of passion,
+            craftsmanship, and tradition. Join us in discovering the world's
+            best coffee beans, handpicked for perfection.
+          </p>
+          <a href="#" class="text-button">Menu</a>
+        </div>
       </div>
 
       <ul class="social">
         <li>
-          <a href="#"><img src="facebook.png" /></a>
+          <a href="#" aria-label="Facebook"
+            ><img src="facebook.png" alt="Facebook"
+          /></a>
         </li>
         <li>
-          <a href="#"><img src="twitter.png" /></a>
+          <a href="#" aria-label="Twitter"
+            ><img src="twitter.png" alt="Twitter"
+          /></a>
         </li>
         <li>
-          <a href="#"><img src="instagram.png" /></a>
+          <a href="#" aria-label="Instagram"
+            ><img src="instagram.png" alt="Instagram"
+          /></a>
         </li>
       </ul>
     </section>
 
-    <div class="menu">
+    <nav class="menu" aria-label="Main navigation">
       <ul>
         <li><a href="#">Home</a></li>
         <li><a href="#">Menu</a></li>
@@ -54,7 +65,7 @@
         <li><a href="#">Blog</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
-    </div>
+    </nav>
 
     <script src="/script.js"></script>
   </body>
